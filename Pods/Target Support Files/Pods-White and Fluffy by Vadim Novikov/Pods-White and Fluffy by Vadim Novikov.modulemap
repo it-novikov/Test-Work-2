@@ -1,0 +1,6 @@
+framework module Pods_White_and_Fluffy_by_Vadim_Novikov {
+  umbrella header "Pods-White and Fluffy by Vadim Novikov-umbrella.h"
+
+  export *
+  module * { export * }
+}

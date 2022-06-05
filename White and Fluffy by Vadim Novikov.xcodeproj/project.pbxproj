@@ -7,25 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FA1B968F3E04C5055FD5EDF /* Pods_White_and_Fluffy_by_Vadim_Novikov.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C4FC2A694A7C1B53E2545 /* Pods_White_and_Fluffy_by_Vadim_Novikov.framework */; };
 		A40B26B7284CF9470033838C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B26B6284CF9470033838C /* AppDelegate.swift */; };
 		A40B26B9284CF9470033838C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B26B8284CF9470033838C /* SceneDelegate.swift */; };
-		A40B26BB284CF9470033838C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B26BA284CF9470033838C /* ViewController.swift */; };
-		A40B26BE284CF9470033838C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40B26BC284CF9470033838C /* Main.storyboard */; };
 		A40B26C1284CF9470033838C /* White_and_Fluffy_by_Vadim_Novikov.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A40B26BF284CF9470033838C /* White_and_Fluffy_by_Vadim_Novikov.xcdatamodeld */; };
 		A40B26C3284CF9480033838C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40B26C2284CF9480033838C /* Assets.xcassets */; };
 		A40B26C6284CF9480033838C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40B26C4284CF9480033838C /* LaunchScreen.storyboard */; };
+		A40B26D8284CFA6B0033838C /* DetailInfoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B26D7284CFA6B0033838C /* DetailInfoDelegate.swift */; };
+		A40B26DA284CFA840033838C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B26D9284CFA840033838C /* MainTabBarController.swift */; };
+		A40B26DC284CFA9A0033838C /* PhotoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B26DB284CFA9A0033838C /* PhotoesViewController.swift */; };
+		A40B26DE284CFABD0033838C /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B26DD284CFABD0033838C /* FavouritesViewController.swift */; };
+		A40B26E0284CFADC0033838C /* DetailedInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B26DF284CFADC0033838C /* DetailedInfoViewController.swift */; };
+		A40B26E2284CFB0B0033838C /* NetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B26E1284CFB0B0033838C /* NetworkData.swift */; };
+		A40B26E4284CFB240033838C /* PhotoesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B26E3284CFB240033838C /* PhotoesTableViewCell.swift */; };
+		A40B26E6284CFB380033838C /* FavouritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B26E5284CFB380033838C /* FavouritesTableViewCell.swift */; };
+		A40B26E8284CFB640033838C /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B26E7284CFB640033838C /* NetworkServiceProtocol.swift */; };
+		A40B26EA284CFB6F0033838C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B26E9284CFB6F0033838C /* NetworkService.swift */; };
+		A40B26EC284CFB790033838C /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B26EB284CFB790033838C /* NetworkDataFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		089C4FC2A694A7C1B53E2545 /* Pods_White_and_Fluffy_by_Vadim_Novikov.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_White_and_Fluffy_by_Vadim_Novikov.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BC42D541747D5EE46D21E5 /* Pods-White and Fluffy by Vadim Novikov.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-White and Fluffy by Vadim Novikov.release.xcconfig"; path = "Target Support Files/Pods-White and Fluffy by Vadim Novikov/Pods-White and Fluffy by Vadim Novikov.release.xcconfig"; sourceTree = "<group>"; };
 		A40B26B3284CF9470033838C /* White and Fluffy by Vadim Novikov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "White and Fluffy by Vadim Novikov.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A40B26B6284CF9470033838C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A40B26B8284CF9470033838C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A40B26BA284CF9470033838C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A40B26BD284CF9470033838C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A40B26C0284CF9470033838C /* White_and_Fluffy_by_Vadim_Novikov.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = White_and_Fluffy_by_Vadim_Novikov.xcdatamodel; sourceTree = "<group>"; };
 		A40B26C2284CF9480033838C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A40B26C5284CF9480033838C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A40B26C7284CF9480033838C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40B26D7284CFA6B0033838C /* DetailInfoDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoDelegate.swift; sourceTree = "<group>"; };
+		A40B26D9284CFA840033838C /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A40B26DB284CFA9A0033838C /* PhotoesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoesViewController.swift; sourceTree = "<group>"; };
+		A40B26DD284CFABD0033838C /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		A40B26DF284CFADC0033838C /* DetailedInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedInfoViewController.swift; sourceTree = "<group>"; };
+		A40B26E1284CFB0B0033838C /* NetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkData.swift; sourceTree = "<group>"; };
+		A40B26E3284CFB240033838C /* PhotoesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoesTableViewCell.swift; sourceTree = "<group>"; };
+		A40B26E5284CFB380033838C /* FavouritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesTableViewCell.swift; sourceTree = "<group>"; };
+		A40B26E7284CFB640033838C /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		A40B26E9284CFB6F0033838C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		A40B26EB284CFB790033838C /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		CAFB50C97BA2A594F514D9DD /* Pods-White and Fluffy by Vadim Novikov.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-White and Fluffy by Vadim Novikov.debug.xcconfig"; path = "Target Support Files/Pods-White and Fluffy by Vadim Novikov/Pods-White and Fluffy by Vadim Novikov.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA1B968F3E04C5055FD5EDF /* Pods_White_and_Fluffy_by_Vadim_Novikov.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72EF27C4C0EC15E3E8810BBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C4FC2A694A7C1B53E2545 /* Pods_White_and_Fluffy_by_Vadim_Novikov.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EF8FEBB773756B95151CBEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB50C97BA2A594F514D9DD /* Pods-White and Fluffy by Vadim Novikov.debug.xcconfig */,
+				72BC42D541747D5EE46D21E5 /* Pods-White and Fluffy by Vadim Novikov.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A40B26AA284CF9470033838C = {
 			isa = PBXGroup;
 			children = (
 				A40B26B5284CF9470033838C /* White and Fluffy by Vadim Novikov */,
 				A40B26B4284CF9470033838C /* Products */,
+				8EF8FEBB773756B95151CBEC /* Pods */,
+				72EF27C4C0EC15E3E8810BBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +100,105 @@
 		A40B26B5284CF9470033838C /* White and Fluffy by Vadim Novikov */ = {
 			isa = PBXGroup;
 			children = (
-				A40B26B6284CF9470033838C /* AppDelegate.swift */,
-				A40B26B8284CF9470033838C /* SceneDelegate.swift */,
-				A40B26BA284CF9470033838C /* ViewController.swift */,
-				A40B26BC284CF9470033838C /* Main.storyboard */,
-				A40B26C2284CF9480033838C /* Assets.xcassets */,
-				A40B26C4284CF9480033838C /* LaunchScreen.storyboard */,
-				A40B26C7284CF9480033838C /* Info.plist */,
-				A40B26BF284CF9470033838C /* White_and_Fluffy_by_Vadim_Novikov.xcdatamodeld */,
+				A40B26D3284CFA180033838C /* Application */,
+				A40B26CE284CF9EB0033838C /* Controllers */,
+				A40B26CD284CF9E40033838C /* Model */,
+				A40B26CF284CF9F30033838C /* Resources */,
+				A40B26D0284CF9FB0033838C /* Services */,
 			);
 			path = "White and Fluffy by Vadim Novikov";
+			sourceTree = "<group>";
+		};
+		A40B26CD284CF9E40033838C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A40B26D5284CFA4C0033838C /* Cells */,
+				A40B26E1284CFB0B0033838C /* NetworkData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A40B26CE284CF9EB0033838C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A40B26D4284CFA3F0033838C /* Protocols */,
+				A40B26D9284CFA840033838C /* MainTabBarController.swift */,
+				A40B26DB284CFA9A0033838C /* PhotoesViewController.swift */,
+				A40B26DD284CFABD0033838C /* FavouritesViewController.swift */,
+				A40B26DF284CFADC0033838C /* DetailedInfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A40B26CF284CF9F30033838C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A40B26C2284CF9480033838C /* Assets.xcassets */,
+				A40B26C7284CF9480033838C /* Info.plist */,
+				A40B26C4284CF9480033838C /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A40B26D0284CF9FB0033838C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A40B26D2284CFA090033838C /* DataStorage */,
+				A40B26D1284CFA030033838C /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A40B26D1284CFA030033838C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A40B26D6284CFA560033838C /* Protocols */,
+				A40B26E9284CFB6F0033838C /* NetworkService.swift */,
+				A40B26EB284CFB790033838C /* NetworkDataFetcher.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A40B26D2284CFA090033838C /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				A40B26BF284CF9470033838C /* White_and_Fluffy_by_Vadim_Novikov.xcdatamodeld */,
+			);
+			path = DataStorage;
+			sourceTree = "<group>";
+		};
+		A40B26D3284CFA180033838C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A40B26B6284CF9470033838C /* AppDelegate.swift */,
+				A40B26B8284CF9470033838C /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A40B26D4284CFA3F0033838C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A40B26D7284CFA6B0033838C /* DetailInfoDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A40B26D5284CFA4C0033838C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A40B26E3284CFB240033838C /* PhotoesTableViewCell.swift */,
+				A40B26E5284CFB380033838C /* FavouritesTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A40B26D6284CFA560033838C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A40B26E7284CFB640033838C /* NetworkServiceProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A40B26CA284CF9480033838C /* Build configuration list for PBXNativeTarget "White and Fluffy by Vadim Novikov" */;
 			buildPhases = (
+				98F962DE6BB120DCAB0C9F12 /* [CP] Check Pods Manifest.lock */,
 				A40B26AF284CF9470033838C /* Sources */,
 				A40B26B0284CF9470033838C /* Frameworks */,
 				A40B26B1284CF9470033838C /* Resources */,
+				ADC2647FA605E5E8D61AC8C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,20 +263,71 @@
 			files = (
 				A40B26C6284CF9480033838C /* LaunchScreen.storyboard in Resources */,
 				A40B26C3284CF9480033838C /* Assets.xcassets in Resources */,
-				A40B26BE284CF9470033838C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98F962DE6BB120DCAB0C9F12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-White and Fluffy by Vadim Novikov-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADC2647FA605E5E8D61AC8C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-White and Fluffy by Vadim Novikov/Pods-White and Fluffy by Vadim Novikov-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-White and Fluffy by Vadim Novikov/Pods-White and Fluffy by Vadim Novikov-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-White and Fluffy by Vadim Novikov/Pods-White and Fluffy by Vadim Novikov-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A40B26AF284CF9470033838C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A40B26BB284CF9470033838C /* ViewController.swift in Sources */,
+				A40B26EC284CFB790033838C /* NetworkDataFetcher.swift in Sources */,
 				A40B26C1284CF9470033838C /* White_and_Fluffy_by_Vadim_Novikov.xcdatamodeld in Sources */,
+				A40B26DC284CFA9A0033838C /* PhotoesViewController.swift in Sources */,
+				A40B26D8284CFA6B0033838C /* DetailInfoDelegate.swift in Sources */,
+				A40B26E6284CFB380033838C /* FavouritesTableViewCell.swift in Sources */,
+				A40B26DA284CFA840033838C /* MainTabBarController.swift in Sources */,
+				A40B26E0284CFADC0033838C /* DetailedInfoViewController.swift in Sources */,
 				A40B26B7284CF9470033838C /* AppDelegate.swift in Sources */,
+				A40B26E2284CFB0B0033838C /* NetworkData.swift in Sources */,
+				A40B26E8284CFB640033838C /* NetworkServiceProtocol.swift in Sources */,
+				A40B26DE284CFABD0033838C /* FavouritesViewController.swift in Sources */,
+				A40B26E4284CFB240033838C /* PhotoesTableViewCell.swift in Sources */,
+				A40B26EA284CFB6F0033838C /* NetworkService.swift in Sources */,
 				A40B26B9284CF9470033838C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +335,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A40B26BC284CF9470033838C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A40B26BD284CF9470033838C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A40B26C4284CF9480033838C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -220,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,6 +462,7 @@
 		};
 		A40B26CB284CF9480033838C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAFB50C97BA2A594F514D9DD /* Pods-White and Fluffy by Vadim Novikov.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,10 +470,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J625CSNR76;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "White and Fluffy by Vadim Novikov/Info.plist";
+				INFOPLIST_FILE = "White and Fluffy by Vadim Novikov/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,12 +485,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A40B26CC284CF9480033838C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72BC42D541747D5EE46D21E5 /* Pods-White and Fluffy by Vadim Novikov.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,10 +499,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J625CSNR76;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "White and Fluffy by Vadim Novikov/Info.plist";
+				INFOPLIST_FILE = "White and Fluffy by Vadim Novikov/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +514,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
